@@ -1,0 +1,17 @@
+.dropdown-toggle::after {
+  border-radius: unset !important;
+  vertical-align: middle !important;
+  content: url(../../assets/images/caret-down.svg) !important;
+  border: none !important;
+}
+
+.expert-btn {
+  width: 14rem !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: var(--bs-dropdown-link-active-color);
+  text-decoration: none;
+  background-color: unset !important;
+}

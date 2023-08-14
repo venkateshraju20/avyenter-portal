@@ -1,7 +1,7 @@
 .dropdown-toggle::after {
   border-radius: unset !important;
   vertical-align: middle !important;
-  content: url(../../assets/images/caret-down.svg) !important;
+  content: url(../../assets/icons/caret-down-icon.svg) !important;
   border: none !important;
 }
 

@@ -5,6 +5,7 @@ import Contact from "./pages/contact/Contact";
 import Solutions from "./pages/solutions/Solutions";
 import Pricing from "./pages/pricing/Pricing";
 import Careers from "./pages/careers/Careers";
+import Company from "./pages/company/Company";
 function App() {
   return (
     <Router>
@@ -15,6 +16,14 @@ function App() {
           element={
             <MainLayout>
               <Home />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/company"
+          element={
+            <MainLayout>
+              <Company />
             </MainLayout>
           }
         />

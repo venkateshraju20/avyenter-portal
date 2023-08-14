@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import AvyenterLogo from "../../assets/images/avyenter-logo-footer.svg";
-import LinkedInIcon from "../../assets/images/linkedin-icon.svg";
-import TwitterIcon from "../../assets/images/twitter-icon.svg";
+import LinkedInIcon from "../../assets/icons/linkedin-icon.svg";
+import TwitterIcon from "../../assets/icons/twitter-icon.svg";
 const Footer = () => {
   return (
     <footer>
@@ -16,7 +16,7 @@ const Footer = () => {
                 <div className="col">
                   <NavLink
                     className="text-gray-100 text-decoration-none"
-                    to="/"
+                    to="/company"
                   >
                     Company
                   </NavLink>
@@ -65,10 +65,14 @@ const Footer = () => {
             </div>
             <div className="col-md-2">
               <div className="d-flex justify-content-md-end gap-4">
-                <a href="https://www.linkedin.com/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={LinkedInIcon} alt="LinkedInIcon" />
                 </a>
-                <a href="https://twitter.com/" target="_blank">
+                <a href="https://twitter.com/" target="_blank" rel="noreferrer">
                   <img src={TwitterIcon} alt="LinkedInIcon" />
                 </a>
               </div>

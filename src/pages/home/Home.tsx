@@ -1,12 +1,12 @@
-import CheckIcon from "../../assets/images/check-icon.svg";
+import CheckOutlineIcon from "../../assets/icons/check-outline-icon.svg";
 import RedefineImage from "../../assets/images/redefine.svg";
-import ArrowImage from "../../assets/images/arrow-right.svg";
-import CheckCircle from "../../assets/images/check-circle.svg";
+import ArrowRightIcon from "../../assets/icons/arrow-right-icon.svg";
+import CheckCircleIcon from "../../assets/icons/check-circle-icon.svg";
 import BlueImage from "../../assets/images/blue-image.svg";
-import BlogLeft from "../../assets/images/blog-left.svg";
-import BlogOne from "../../assets/images/blog-right-one.svg";
-import BlogTwo from "../../assets/images/blog-right-two.svg";
-import BlogThree from "../../assets/images/blog-right-three.svg";
+import BlogLeftImage from "../../assets/images/blog-left-image.svg";
+import BlogOneImage from "../../assets/images/blog-one-image.svg";
+import BlogTwoImage from "../../assets/images/blog-two-image.svg";
+import BlogThreeImage from "../../assets/images/blog-three-image.svg";
 import BrandingImage from "../../assets/images/branding.svg";
 import "./Home.css";
 const Home = () => {
@@ -21,19 +21,19 @@ const Home = () => {
             <div className="d-flex flex-column gap-1 mb-4">
               <div className="d-flex gap-2">
                 <div>
-                  <img src={CheckCircle} alt="CheckCircle" />
+                  <img src={CheckCircleIcon} alt="CheckCircleIcon" />
                 </div>
                 <div>Enterprise-grade security</div>
               </div>
               <div className="d-flex gap-2">
                 <div>
-                  <img src={CheckCircle} alt="CheckCircle" />
+                  <img src={CheckCircleIcon} alt="CheckCircleIcon" />
                 </div>
                 <div>99.9% guaranteed uptime SLA</div>
               </div>
               <div className="d-flex gap-2">
                 <div>
-                  <img src={CheckCircle} alt="CheckCircle" />
+                  <img src={CheckCircleIcon} alt="CheckCircleIcon" />
                 </div>
                 <div>Designated customer success team</div>
               </div>
@@ -86,8 +86,8 @@ const Home = () => {
           </div>
         </div>
         <div className="d-flex flex-column align-items-center m-5">
-          <h3>Redefining Remote Payroll Management</h3>
-          <div className="text-gray-200">
+          <h3 className="text-center">Redefining Remote Payroll Management</h3>
+          <div className="text-gray-200 text-center">
             Keeping your eye on the ball while performing a deep dive on the
             start-up mentality to derive convergence on cross-platform
             integration.
@@ -104,19 +104,19 @@ const Home = () => {
             <div className="d-flex flex-column gap-1 mb-4">
               <div className="d-flex gap-2">
                 <div>
-                  <img src={CheckIcon} alt="CheckIcon" />
+                  <img src={CheckOutlineIcon} alt="CheckOutlineIcon" />
                 </div>
                 <div>Enterprise-Level Support</div>
               </div>
               <div className="d-flex gap-2">
                 <div>
-                  <img src={CheckIcon} alt="CheckIcon" />
+                  <img src={CheckOutlineIcon} alt="CheckOutlineIcon" />
                 </div>
                 <div>Hassle free legal formations</div>
               </div>
               <div className="d-flex gap-2">
                 <div>
-                  <img src={CheckIcon} alt="CheckIcon" />
+                  <img src={CheckOutlineIcon} alt="CheckOutlineIcon" />
                 </div>
                 <div>Designated customer success team</div>
               </div>
@@ -129,8 +129,8 @@ const Home = () => {
               <img
                 style={{ verticalAlign: "text-top" }}
                 className="ms-2"
-                src={ArrowImage}
-                alt="ArrowImage"
+                src={ArrowRightIcon}
+                alt="ArrowRightIcon"
               />
             </button>
           </div>
@@ -164,19 +164,19 @@ const Home = () => {
             <div className="d-flex flex-column gap-1 mb-4">
               <div className="d-flex gap-2">
                 <div>
-                  <img src={CheckIcon} alt="CheckIcon" />
+                  <img src={CheckOutlineIcon} alt="CheckOutlineIcon" />
                 </div>
                 <div>Enterprise-grade security</div>
               </div>
               <div className="d-flex gap-2">
                 <div>
-                  <img src={CheckIcon} alt="CheckIcon" />
+                  <img src={CheckOutlineIcon} alt="CheckOutlineIcon" />
                 </div>
                 <div>99.9% guaranteed uptime SLA</div>
               </div>
               <div className="d-flex gap-2">
                 <div>
-                  <img src={CheckIcon} alt="CheckIcon" />
+                  <img src={CheckOutlineIcon} alt="CheckOutlineIcon" />
                 </div>
                 <div>Designated customer success team</div>
               </div>
@@ -189,8 +189,8 @@ const Home = () => {
               <img
                 style={{ verticalAlign: "text-top" }}
                 className="ms-2"
-                src={ArrowImage}
-                alt="ArrowImage"
+                src={ArrowRightIcon}
+                alt="ArrowRightIcon"
               />
             </button>
           </div>
@@ -203,8 +203,8 @@ const Home = () => {
       <>
         <div>
           <div className="d-flex flex-column align-items-center p-5">
-            <h3>Latest Blog Posts</h3>
-            <div className="text-gray-200">
+            <h3 className="text-center">Latest Blog Posts</h3>
+            <div className="text-gray-200 text-center">
               Completely synergize resource taxing relationships via premier
               niche markets. Professionally cultivate one-to-one customer
               service with robust ideas.
@@ -214,7 +214,7 @@ const Home = () => {
             <div className="col">
               <div className="d-flex flex-column">
                 <div>
-                  <img src={BlogLeft} alt="BlogLeft" />
+                  <img src={BlogLeftImage} alt="BlogLeftImage" />
                 </div>
                 <div className="fw-bold fs-5 my-3">
                   Reach your users with new tools. Reach your users with new
@@ -233,7 +233,7 @@ const Home = () => {
               <div className="d-flex flex-column gap-3">
                 <div className="d-flex align-items-center gap-4">
                   <div>
-                    <img src={BlogOne} alt="BlogOne" />
+                    <img src={BlogOneImage} alt="BlogOneImage" />
                   </div>
                   <div className="d-flex flex-column">
                     <div className="fw-bold fs-5 my-1">
@@ -248,7 +248,7 @@ const Home = () => {
                 </div>
                 <div className="d-flex align-items-center gap-4">
                   <div>
-                    <img src={BlogTwo} alt="BlogTwo" />
+                    <img src={BlogTwoImage} alt="BlogTwoImage" />
                   </div>
                   <div className="d-flex flex-column">
                     <div className="fw-bold fs-5 my-1">
@@ -265,7 +265,7 @@ const Home = () => {
                 </div>
                 <div className="d-flex align-items-center gap-4">
                   <div>
-                    <img src={BlogThree} alt="BlogThree" />
+                    <img src={BlogThreeImage} alt="BlogThreeImage" />
                   </div>
                   <div className="d-flex flex-column">
                     <div className="fw-bold fs-5 my-1">
@@ -292,7 +292,7 @@ const Home = () => {
       <>
         <div className="d-flex flex-column align-items-center p-5">
           <div className="text-blue-900 mb-2">1% OF THE INDUSTRY</div>
-          <h4 className="mb-2">
+          <h4 className="mb-2 text-center">
             Welcome to your new digital reality that will rock your world truly
             at all throughout.
           </h4>
@@ -312,19 +312,19 @@ const Home = () => {
           <div className="d-flex gap-5">
             <div className="d-flex gap-2">
               <div>
-                <img src={CheckCircle} alt="CheckCircle" />
+                <img src={CheckCircleIcon} alt="CheckCircleIcon" />
               </div>
               <div>Fully Secure</div>
             </div>
             <div className="d-flex gap-2">
               <div>
-                <img src={CheckCircle} alt="CheckCircle" />
+                <img src={CheckCircleIcon} alt="CheckCircleIcon" />
               </div>
               <div>24/7 Support</div>
             </div>
             <div className="d-flex gap-2">
               <div>
-                <img src={CheckCircle} alt="CheckCircle" />
+                <img src={CheckCircleIcon} alt="CheckCircleIcon" />
               </div>
               <div>Done Deal</div>
             </div>

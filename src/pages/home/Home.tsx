@@ -335,24 +335,24 @@ const Home = () => {
   };
   return (
     <>
-      {/* <section>
-        <div className="d-flex align-items-center mb">
+      {/* <section className="ps-5">
+        <div className="d-flex align-items-center">
           <div className="container-l">{superChargedSection()}</div>
-          <div className="">
+          <div>
             <img src={BlueImage} alt="BlueImage" />
           </div>
         </div>
       </section> */}
-      <section className="bg-white">
+      <section className="bg-white px-5">
         <div className="container-xxl">{redefiningSection()}</div>
       </section>
-      <section>
+      <section className="px-5">
         <div className="container-xxl">{brandingPosts()}</div>
       </section>
-      <section className="bg-white">
+      <section className="bg-white px-5">
         <div className="container-xxl">{blogPosts()}</div>
       </section>
-      <section>
+      <section className="px-5">
         <div className="container-xxl">{emailSubscribeSection()}</div>
       </section>
     </>

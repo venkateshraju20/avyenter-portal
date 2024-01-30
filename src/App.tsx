@@ -6,6 +6,7 @@ import Solutions from "./pages/solutions/Solutions";
 import Pricing from "./pages/pricing/Pricing";
 import Careers from "./pages/careers/Careers";
 import Company from "./pages/company/Company";
+// testing new
 function App() {
   return (
     <Router>
@@ -24,7 +25,7 @@ function App() {
           element={
             <MainLayout>
               <Company />
-            </MainLayout>
+            </MainLayout> 
           }
         />
         <Route
